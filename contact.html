@@ -3,31 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" ; href="styles.css">
+  
     <title>contact</title>
 </head>
 <body>
     <header>
         <h1>contact</h1>
     </header>
-        <main>
-            <section>
+        <main class="contact">
                 <form>
-                    <div>
-                        <p>Telephone: +22177xxxxxxx</p>
-                    </div>
-                    <div>
-                        <p>Email: halwartech@hotmail.com</p>
-                    </div>
-                    <div>
-                        <p>
-                            <a href="index.html">return to home</a>
-                       </p>
-                    </div>
+                    <label for="Prenom">Prenom</label>
+                    <input type="text" placeholder="Entrez votre Prenom">
+                    <br>
+                    <br>
+                    <label for="Nom">Nom</label>
+                    <input type="text" placeholder="Entrez votre Nom"> 
+                    <br>
+                    <br>
+                    <label for="Numero Tel">Numero</label>
+                    <input type="Number" Numero placeholder="Entrez votre Numero Tel">
+                    <br>
+                    <br>
+                    <label for="Email">Email</label>
+                    <input type="Email" placeholder="votre Email">
                 </form>
-            </section>
+
+                <button class="valide">
+                    <a href="mailto:halwartech@hotmail.com">ENVOYEZ</a>
+                </button>
+                <br>
+
+            <button class="butret">
+                <a href="index.html">Home</a>
+            </button>
         </main>
         <footer>
-            <p>mes contacts</p>
+            <p>contactez-moi</p>
         </footer>
 </body>
 </html>

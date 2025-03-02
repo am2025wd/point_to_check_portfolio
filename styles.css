@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+a:hover{
+    color: rgb(240, 241, 233);
+}
+
+/* * est un selecteur universel a tous les elements */
+*{
+    margin: 0;
+    padding: 0;
+   /*border: 2px solid red; */
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    /* <weight>: Use a value from 100 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
+}
+.entete{
+    display:flex;
+    margin-bottom: 1px;
+    background-color: rgb(180, 208, 143);
+    justify-content:space-around;
+    text-decoration: none;
+    text-transform: uppercase;
+   /* text-align: center;*/ 
+}
+p {
+    display:  inline-flex;
+     text-decoration: none;
+     font-size : 100% ;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     padding:15px;
+    }
+    #ssentete{
+        background-color:rgb(173, 182, 164);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-top: 10px; 
+    }
+h2{
+    text-align: center;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    font-weight:normal;
+}
+main{
+height: 100%;
+background-color: rgb(180, 208, 143);
+/*centrer une boite*/
+ margin-top:1px;
+}
+h3{
+    text-align: center;
+    padding-top: 5px;
+}
+header{
+    text-align: center;
+    text-transform:uppercase;
+    background: rgb(180, 208, 143);
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    background:rgb(180, 208, 143); 
+    margin-top: 1px;
+}
+form{
+    min-height: 500px;
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+     justify-content: center;
+     align-items:start;
+}
+.contact{
+    display:flex;
+    height:690px;
+    position:relative;
+flex-direction: column;
+text-transform: uppercase;
+justify-content: center;
+
+}
+
+.res{
+    display:flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    height:625px;
+}
+#Comp{
+    display:flex;
+    height:fit-content;
+}
+.about{
+    display:flex;
+    align-items:center;
+    height:500px;
+    justify-content: center;
+
+}
+div{
+    display:flex;
+    flex-direction:column;
+    font-size:1rem;
+    font-family: "Roboto", serif;
+}
+#butw{
+    background: #42c5a2;
+    font-weight:lighter;
+    padding: 5px;
+}
+.butres{
+display:flex;
+    background: #42c5a2;
+    padding:5px;
+    right:10px;
+}
+.butabt{
+    margin-top: 150px; 
+    margin-left:150px;
+    padding:5px;
+    background: #42c5a2;
+}
+.butret{
+    background: #42c5a2;
+    display:flex;
+    padding: 5px;
+    position:absolute;
+    bottom:5px;
+   }
+   .valide{
+    display:flex;
+    position:absolute;
+    bottom:50px;
+    padding: 5px;
+    background: rgb(165, 232, 10);
+    border-color:white;
+    font-weight: bold;
+}
